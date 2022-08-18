@@ -27,7 +27,7 @@ The actual problem of converting Latin notation and value into Decimal was super
 
 ## Refactoring
 Were I to refactor I would revisit the validation and see if there's a more clean way to handle user input.
-I think there are probably inefficiencies at that stage that add unneaded complexity down the line. 
+I think there are probably inefficiencies at that stage that add unneeded complexity down the line. 
 
 But the biggest refactor I would perform is the general layout. I wanted to keep the code simple so the MVC pattern is
 is reduced to View+Controller and Model+View across only 2 files. I would have much preferred to separate the concerns
